@@ -5,9 +5,9 @@ rem Use in case some content needs to be replaced (reverted from Version Control
 setlocal enabledelayedexpansion
 
 :: Source Directory where Version Control Repository is located
-set SOURCE_DIR="C:\Users\fxtrams\Documents\000_TradingRepo\WatchDog"
+set SOURCE_DIR="C:\Users\Kris\Documents\GitHub\LazyTrade\WatchDog"
 :: Destination Directory where Expert Advisor is located
-set DEST_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\00_WatchDog"
+set DEST_DIR="C:\Program Files (x86)\MetaTrader - AxiTrader - Term2\MQL4\Experts\02_WatchDog"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
 
